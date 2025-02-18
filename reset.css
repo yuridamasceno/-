@@ -1,0 +1,43 @@
+/* Reset CSS básico para normalizar estilos entre navegadores */
+
+/* Remove margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remove estilos padrão de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove decorações de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Define fonte padrão */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Remove estilos padrão de elementos de formulário */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  /* Melhora a acessibilidade e usabilidade */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
