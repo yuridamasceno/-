@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+ 
+    <!-- LINKS -->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Style-page2.css">
+
+    <title>汉语，中文还是普通话?</title>
+</head>
+<body>
+     <section class="section1">
+        <!-- RETANGULO SUPERIOR -->
+        <div class="retangulo">
+            <a href="index.html"><img class="flag" src="Img/brasil.png" alt="Bandeira Brasileira"></a>
+            <a href="index.html"><img class="flag" src="Img/china.png" alt="Bandeira Chinesa"></a>
+            <a href="index.html"><h1>欢迎来到<span class="cn">汉语</span>的<span class="br">网页</span></h1></a>
+        </div>
+
+        <!-- RETANGULO DO LADO ESQUERDO -->
+        <div class="retangulo1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                </svg>
+                <h2>历史:</h2>
+                <nav>
+                    <a href="Index2.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 中国的历史:</a><br>
+
+                    <a href="Index3.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 汉字的历史:</a><br>
+
+                    <a href="Index4.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 写字的历史:</a><br>
+
+                    <a href="Index5.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 阅读的历史:</a><br>
+
+                    <a href="Index6.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg>汉语，中文还是普通话?</a><br><br><br>
+
+                    <div class="languages">
+                        <div class="languages-library">
+                            <button id="library__button" class="library__button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+                                    <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+                                    <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+                                  </svg>
+
+                                <span id="language">语言 (Idioma)</span><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>简体中文</a><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>English</a><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>Português brasileiro</a>
+                                
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="containerone ">
+            <div class="retanguloone">
+                <!-- Qual é a diferença entre 汉语，中文 e 普通话? -->
+                <h1> Qual é a diferença entre 汉语，中文 e 普通话?</h1>
+                <p>Bom, muitos estudantes de mandarim perguntam qual é a diferença entre 汉语 (Hànyǔ)，中文(zhōngwé) e 普通话 (pǔtōnghuà)?</p>
+                <p>Isso vai depender da região da China em que você se encontra. 汉语 é considerado chinês mas é da etnia "HAN", uma boa parte da população chinesa saber falar 汉语， 中文 é a mesma coisa que 汉语，não muda, um exemplo seria:</p>
+                <ul>
+                    <li>- 你可以说英文吗？Você pode falar em inglês?</li>
+                    <li>- 不，我只会说中文。Não, eu só falo chinês.</li>
+                </ul>
+                <p>Ou seja, essa frase de exemplo dita na linha de cime, o 中文 e o 汉语 são o mesmo.</p>
+                <p>Com tudo, o 普通话 é usado para se distinguir dos outros dialetos chineses.</p>
+                <ul>
+                    <li>你说的粤语我听不懂，能说普通话吗? Eu não entendo cantonês, você poderia falar em mandarim?</li>
+                </ul>
+                
+                <!-- Quais as diferenças entre mandarim e cantonês? -->
+                <h2>Quais as diferenças entre mandarim e cantonês?</h2>
+                <p>Que atire a primeira pedra quem nunca ouviu ou nunca se fez uma das seguintes perguntas abaixo:</p>
+                <ul>
+                   <li>“Mandarim e cantonês são iguais?”;</li>
+                   <li>“Todo chinês fala mandarim e cantonês?”;</li>
+                   <li>“Como se escreve em mandarim e cantonês”?;</li>
+                   <li>“Nas lojas de 1,99 as pessoas falam mandarim ou cantonês?”;</li>
+                </ul>
+                   <p>Além de ser o país mais populoso do mundo, a China também ocupa o 3° lugar de país com maior extensão territorial, ficando atrás apenas da Rússia e Canadá.</p>
+                   <p>A situação linguística da China é um pouco diferente da existente no Brasil, pois se uma pessoa da região sul brasileira for para o norte, ela provavelmente não terá muitas dificuldades na comunicação, devido às variações de sotaque e vocabulário.</p>
+                   <p>Na China, por outro lado, uma pessoa do norte certamente não entenderá a fala de uma pessoa do sul (não entenderá a fala).</p>
+                   <p>Esse fenômeno linguístico ocorre devido aos cerca de 80 diferentes dialetos oriundos de povos e regiões distintas dentro do território chinês.</p>
+                   <p>Atualmente existem 56 grupos étnicos reconhecidos pelo governo da China, conhecidos também como 少数名族 (shǎoshù mínzú), sendo 91% dessa população pertencente à etnia Hàn.</p>
+                   <p>Em virtude dessa diversidade, cada povo possui a sua própria língua, os seus próprios costumes e tradições.</p>
+                   <img src="Img/img-page6/populaçao.jpg" alt="População Chinesa">
+                   <p>Para evitar conflitos na comunicação, o mandarim, como é utilizado hoje, foi adotado como idioma oficial da China nos anos de 1950.</p>
+                   <p>Ele é falado em toda a China Continental e Taiwan, e é ensinado nas escolas como língua materna, sendo requisito para situações formais.</p>
+                   <p>Além disso, ele também é utilizado oficialmente em trabalhos de órgãos governamentais, programas de rádio, televisão, etc.</p>
+                   <p>Porém, em situações informais, tais como encontros familiares e reuniões entre amigos, os dialetos são amplamente utilizados.</p>
+                   <p>Dito de outra maneira, eles coexistem com o mandarim, sendo muito comum casos em que chineses falam tanto um dialeto de uma região específica quanto o idioma oficial.</p>
+                   <p>Para melhor visualizar a questão linguística da China, vamos a um exemplo:</p>
+                   <p>Se um chinês do extremo norte viajar para o sul e se deparar com uma pessoa que só fala um dialeto local, mesmo sabendo mandarim, ele não entenderá o que a pessoa está falando.</p>
+                   <p>Porém, se as duas pessoas falarem a língua padrão (o mandarim), ambas não terão problemas na comunicação.</p>
+
+                    <!-- E o cantonês? -->
+                    <h2>E o cantonês?</h2>
+                    <p>Bom, o cantonês é um desses dialetos da China, sendo o mais utilizado depois do mandarim.</p>
+                    <p>Na China Continental, ele é falado em 广东 (guǎng dōng, Cantão em português) e cidades adjacentes, além de Hong Kong e Macau.</p>
+                    <p>Tanto o mandarim quanto o cantonês são línguas tonais, porém, enquanto o primeiro possui 4 tons, o segundo conta com 6 tons.</p>
+                    <p>Além disso, o sistema de romanização do cantonês é o Yale e não o Pīnyīn, não havendo nenhuma relação entre eles.</p>
+                    <img src="Img/img-page6/02.png" alt="Mandarim">
+                    <img src="Img/img-page6/03.png" alt="Cantonês">
+                    <p>Apesar do mandarim e cantonês – e tantos outros dialetos – serem falados de formas completamente diferentes, todos compartilham de um mesmo sistema de escrita: os ideogramas chineses, conhecidos também como 汉字 (hàn zì).</p>
+                    <p>Nos dias de hoje existem dois padrões desse tipo de escrita: o chinês tradicional e o chinês simplificado.</p>
+                    <p>Mas, qual a diferença entre eles?</p>
+                    <p>Enquanto o chinês tradicional é utilizado em Hong Kong, Macau e Taiwan, o chinês simplificado é utilizado na China Continental, Singapura e Malásia.</p>
+                    <p>A principal diferença entre eles é a quantidade de traços dos ideogramas: o chinês tradicional possui mais traços e estruturas mais complexas se comparados ao chinês simplificado.</p>
+                    <table border="2">
+                        <tr>
+                          <th>Chinês Tradicional</th>
+                          <th>Chinês Simplificado</th>
+                          <th>Pīnyīn</th>
+                          <th>Significado</th>
+                        </tr>
+                        <tr>
+                          <td>愛 (13 traços)</td>
+                          <td>爱 (10 traços)</td>
+                          <td>ài</td>
+                          <td>amor</td>
+                        </tr>
+                        <tr>
+                          <td>馬 (10 traços)</td>
+                          <td>马 (3 traços)</td>
+                          <td>mǎ</td>
+                          <td>cavalo</td>
+                        </tr>
+                        <tr>
+                            <td>飛機 (9/16 traços)</td>
+                            <td>飞机 (3/6 traços)</td>
+                            <td>fēi jī</td>
+                            <td>avião</td>
+                        </tr>
+                      </table>
+                <p>Com tantas informações sobre o mandarim e cantonês, e as formas de escrita chinês simplificado e tradicional, podemos elaborar o seguinte resumo:</p>
+
+                <h2>Mandarim</h2>
+                <ul>
+                    <li> - China Continental (Chinês Simplificado);</li>
+                    <li> - Singapura (Chinês Simplificado);</li>
+                    <li> - Malásia (Chinês Simplificado);</li>
+                    <li> - Taiwan (Chinês Tradicional).</li>
+                </ul>
+
+                <h2>Cantonês</h2>
+                <ul>
+                    <li> - Hong Kong (Chinês Tradicional);</li>
+                    <li> - Macau (Chinês Tradicional);</li>
+                    <li>Cantão (Chinês Simplificado).</li>
+                </ul>
+
+                <p>Como vimos há pouco, apesar das diversas discrepâncias entre os dialetos da China, o sistema de escrita utilizado entre eles é o mesmo: os ideogramas chineses.</p>
+                <p>Ou seja, um falante de mandarim e um falante de cantonês escrevem da mesma forma (em chinês padrão = mandarim).</p>
+                <p>Porém, quando um cantonês lê a forma padrão, ele pronuncia cada palavra utilizando a pronúncia do cantonês.</p>
+                <p>Isso pode gerar o falso conceito de que o mandarim e o cantonês se diferenciam apenas pela pronúncia, mas na verdade, ambos também possuem diferenças de gramática e vocabulário.</p>
+                <p>Ficou muito confuso? Então vamos para alguns exemplos:</p>
+                <ul>
+                    <li><span>Palavra</span>: 中国 (China)</li>
+                    <li><span>Mandarim</span>: zhōng guó</li>
+                    <li><span>Cantonês</span>: zung1gwok3</li>
+                </ul>
+                <br>
+                <ul>
+                    <li><span>Palavra</span>: 我 (Eu)</li>
+                    <li><span>Mandarim</span>: wǒ</li>
+                    <li><span>Cantonês</span>: nho5</li>
+                </ul>
+                <br>
+                <ul>
+                    <li><span>Palavra</span>: 你 (Você)</li>
+                    <li><span>Mandarim</span>: nǐ</li>
+                    <li><span>Cantonês</span>: nei5</li>
+                </ul>
+                <br>
+                <p>Tanto no mandarim quanto no cantonês é muito comum casos em que ideogramas diferentes possuam a mesma pronúncia e entonação:</p>
+                <ul>
+                    <li><span>Ideogramas</span>:   中   伀   忠</li>
+                    <li><span>Mandarim</span>: zhōng zhōng zhōng</li>
+                    <li><span>Cantonês</span>: zung1 zung1 zung1</li>
+                </ul>
+                <p>Porém, há também caracteres que possuem a mesma pronúncia em uma língua, mas pronúncias e entonações totalmente diferentes em outra:</p>
+                <ul>
+                    <li><span>Ideogramas</span>: 谢   鞋   写</li>
+                    <li><span>Mandarim</span>: xiè   xié   xiě</li>
+                    <li><span>Cantonês</span>: ze6   haai4   se2</li>
+                </ul>
+                <p>No exemplo acima foi possível notar que os sons do mandarim são completamente diferentes dos sons do cantonês, certo?</p>
+                <p>Enquanto no primeiro as sílabas são pronunciadas da mesma forma, mas com tons diferentes, no segundo, todas elas são distintas entre si.</p>
+                <p>Apesar de usarem os mesmos ideogramas para expressar o mesmo significado, alguns que são utilizados no cantonês são completamente diferentes do mandarim. Veja os exemplos abaixo:</p>
+                <ul>
+                    <li><span>Palavra</span>: Não ter</li>
+                    <li><span>Mandarim</span>: 没有 (méi yǒu)</li>
+                    <li><span>Cantonês</span>: 冇啊 (mou5 a3)</li>
+                </ul>
+                <br>
+                <ul>
+                    <li><span>Palavra</span>: Obrigado(a)</li>
+                    <li><span>Mandarim</span>: 谢谢 (xiè xie)</li>
+                    <li><span>Cantonês</span>: 唔該 (m4 goi1)</li>
+                </ul>
+                <br>
+
+                <!-- Para visualizar melhor a diferença entre o mandarim e o cantonês, vamos para exemplos com frases. -->
+                <h2>Para visualizar melhor a diferença entre o mandarim e o cantonês, vamos para exemplos com frases.</h2>
+                <p>Observe as sentenças a seguir:</p>
+                <ul>
+                    <li><span>Português</span>: Você sabe ou não sabe falar inglês?</li>
+                    <li><span>Ideogramas</span>: 你会不会说英文？</li>
+                    <li><span>Mandarim</span>: nǐ huì bù huì shuō yīng wén?</li>
+                    <li><span>Cantonês</span>: nei5 wui6 bat1 wui6 syut3 ying1 man4?</li>
+                </ul>
+                <p>O exemplo acima em cantonês retrata a pronúncia de um falante dessa língua ao ler a frase em chinês padrão.</p>
+                <p>Porém, os falantes de cantonês no dia a dia não falam dessa forma. A mesma pergunta seria feita da seguinte maneira:</p>
+                <ul>
+                    <li><span>Ideogramas</span>: 你识唔识讲英文？</li>
+                    <li><span>Cantonês</span>: nei5 sik1 m4 sik1 gong2 ying1 man4?</li>
+                </ul>
+                <p>Ou seja, em cantonês há duas formas: a de leitura e a coloquial.</p>
+                <p>Muitos cantoneses estão acostumados a escrever como se estivessem falando.</p>
+                <p>Dessa maneira, se uma pessoa que não fala cantonês se deparar com uma sentença escrita em cantonês coloquial, ela provavelmente entenderá a frase por dedução através de ideogramas parecidos com o mandarim, ou talvez não entenderá nada.</p>
+                <p>Vamos para mais exemplos?</p>
+                <ul>
+                    <li><span>Português</span>: Onde fica o banheiro?</li>
+                    <li><span>Ideogramas</span>: 洗手间在哪里？</li>
+                    <li><span>Mandarim</span>: xǐ shǒu jiān zài nǎlǐ?</li>
+                    <li><span>Cantonês</span>: sai2 sau2 gaan1 joi6 na5 leui5?</li>
+                </ul>
+                <br>
+                <h3>Cantonês Coloquial</h3>
+                <ul>
+                    <li><span>Ideogramas</span>: 洗手间喺边度呀？</li>
+                    <li><span>Cantonês</span>: sai2 sau2 gaan1 hai2 bin1 dou6 a3?</li>
+                    <li><span>Mandarim</span>: xǐ shǒu jiān xǐ biān dù ya?</li>
+                </ul>
+                <br>
+                <p>Dos exemplos acima, se um cantonês pronunciar os ideogramas da sentença em chinês padrão, a frase ainda terá sentido, o que não ocorre para um falante de mandarim ao ler a frase em ideogramas do cantonês coloquial.</p>
+
+                <!-- Vamos comparar alguns dos aspectos gramaticais? -->
+                <h2>Vamos comparar alguns dos aspectos gramaticais?</h2>
+                <p>Bom, a estrutura frasal básica do mandarim e do cantonês é composta por <span>SUJEITO + VERBO + OBJETO</span>.</p>
+                <p>Na prática, podemos colocar da seguinte forma:</p>
+                <p>Sujeito + Verbo + Objeto</p>
+                <ul>
+                   <li><span>Português</span>: Eu li aqueles livros</li>
+                   <li><span>Mandarim</span>: 我看了那些书 wǒ kàn le nà xiē shū</li>
+                   <li><span>Mandarim</span>: 我睇咗嗰啲書 nho5 tai2 jo2 go2 di1 syu1</li>
+                </ul>
+                <br>
+                <p>Por outro lado, as sentenças comparativas em mandarim e cantonês possuem estruturas diferentes.</p>
+                <p>Em mandarim o adjetivo ocorre no final da frase, enquanto no cantonês ele vem após o sujeito:</p>
+                <br>
+                <ul>
+                    <li><span>Português</span>: Você é maior que eu</li>
+                    <li><span>Mandarim</span>: 你比我大 nǐ bǐ wǒ dà</li>
+                    <li><span>Cantonês</span>: 你大過我 nei5 daai6 gwo3 nho5</li>
+                </ul>
+                <br>
+
+                <!-- Vamos, então, para algumas diferenças dos vocabulários do mandarim e do cantonês. -->
+                <h2>Vamos, então, para algumas diferenças dos vocabulários do mandarim e do cantonês.</h2>
+                <p>Como vimos ao decorrer dessa postagem, para representar um mesmo significado, às vezes, o mandarim e o cantonês utilizam palavras diferentes.</p>
+                <p>É válido relembrar também que alguns ideogramas podem ter significados um pouco distintos de um dialeto para o outro.</p>
+                <p>Além disso, a diferença de vocabulário entre o mandarim e o cantonês falado pode chegar a mais de 50%. Vamos aos exemplos?</p>
+                <br>
+                <ul>
+                    <li><span>Português</span>: Verbo “Ser”</li>
+                    <li><span>Mandarim</span>: 是 (shì) (Pronúncia em cantonês: si6)</li>
+                    <li><span>Cantonês</span>: 系 (hai6) (Pronúncia em mandarim: xì) → em mandarim significa “relação”, “conexão”</li>
+                </ul>
+                <br>
+                <ul>
+                    <li><span>Português</span>: Não</li>
+                    <li><span>Mandarim</span>: 不 (bù) (Pronúncia em cantonês: bat1)</li>
+                    <li><span>Cantonês</span>: 唔 (m4) (Palavra não utilizada em mandarim)</li>
+                </ul>
+                <br>
+                <ul>
+                    <li><span>Português</span>: Como você está?</li>
+                    <li><span>Mandarim</span>: 怎么样？ (zěn me yàng) (Pronúncia em cantonês: jam2 mo1 yeung6)</li>
+                    <li><span>Cantonês</span>: 点啊？ (dim2 a3) (Pronúncia em mandarim: diǎn a)</li>
+                </ul>
+                <br>
+                <ul>
+                    <li><span>Português</span>: Qual é o seu nome?</li>
+                    <li><span>Mandarim</span>: 你叫什么名字？ (nǐ jiào shén me míng zì)</li>
+                    <li><span>Cantonês</span>: 你叫乜嘢名？ (nei5 giu3 mat1 ye5 ming4)</li>
+                </ul>
+                <br>
+                <p>Depois de tantos estudos e comparações, talvez você ainda esteja se perguntando: nas lojas de R$1,99 as pessoas falam mandarim ou cantonês?</p>
+                <p>Bom, a resposta é bem subjetiva. Pode ser que falem mandarim, pode ser que falem cantonês ou até mesmo um dos vários dialetos existentes na China. Ou seja, não há uma resposta exata para essa pergunta.</p>
+                <h3>Por fim, qual deles aprender? Mandarim ou cantonês?</h3>
+                <h3>Aprendendo o mandarim, você será compreendido não só por toda a China Continental, mas também em Taiwan, Singapura e Malásia.</h3>
+                <h3>Aprendendo o cantonês, você será capaz de se comunicar com pessoas mais ao sudeste da China, como em Guangzhou, Hong Kong e Macau.</h3>
+                <h2>Ou seja, aprenda os dois!</h2>
+            </div>
+        </div>
+            
+        <img class="pais" src="Img/pais.png" alt="">
+</body>
+</html>
