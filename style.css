@@ -1,0 +1,232 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+.section1 {
+    background-color: #1A1616;
+    padding-bottom: 20px;
+}
+
+.pais {
+    position: absolute;
+    top: 146px;
+    right: 330px;
+    opacity: 30%;
+}
+
+/* RETANGULO DA SEÇÃO SUPERIOR */
+.section1 .retangulo {
+    display: flex;
+    width: 1750px;
+    height: 150px;
+    background-color: #252121;
+    margin-top: 30px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    border: 1px solid #575656;
+}
+
+.section1 .retangulo .flag {
+    width: 120px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.section1 .retangulo h1 {
+    font-size: 60px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section1 .retangulo .cn {
+    color: #CF180A;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.section1 .retangulo .br {
+    color: #0AB30E;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* RETANGULO DA PARTE ESQUERDA */
+
+.section1 .retangulo1 {
+    display: flex;
+    width: 190px;
+    height: 500px;
+    background-color: #252121;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #575656;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 .retangulo1 .bi-book {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.section1 .retangulo1 h2 {
+    max-width: 70px;
+    max-height: 30px;
+    margin: 7px 0 8px 8px;
+}
+
+.section1 .retangulo1 a {
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.section1 .retangulo1 a:hover {
+    color: #CF180A;
+    text-decoration: underline;
+}
+
+.section1 .retangulo1 .bi-circle-fill{
+    padding-right: 5px;
+    margin-left: 10px;
+}
+
+/* LANGUAGES BUTTON */
+
+.languages .languages-library {
+    margin-left: 10px;
+    background-color: #353232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 170px;
+    border-radius: 10px;
+
+}
+
+.languages .languages-library .bi-translate {
+    color: #fff;
+}
+
+.languages .languages-library span {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.languages .languages-library button {
+    cursor: pointer;
+}
+
+.languages .languages-library a{
+    color: #fff;
+}
+
+
+/* PRIMEIRO CONTAINER */
+
+/* Chinese */
+.container .retangulo {
+    display: flex;
+    flex-direction: column;
+    top: 170px;
+    left: 265px;
+    position: absolute;
+    width:550px;
+    height: 200px;
+    background-color: #616161;
+    border-radius: 10px;
+    border: 1px solid #575656;
+}
+
+.container .retangulo h1 {
+    font-size: 30px;
+}
+
+.container .retangulo .text {
+    max-width: 530px;
+}
+
+/* English */
+.container .english {
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    right: 300px;
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    background-color: #616161;
+    border-radius: 10px;
+    border: 1px solid #575656;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .english h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container .english .text {
+    max-width: 530px;
+}
+
+.container .english .cn {
+    color: #CF180A;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.container .english .br {
+    color: #0AB30E;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Portuguese */
+.container .portuguese {
+    display: flex;
+    flex-direction: column;
+    bottom: 230px;
+    right: 620px;
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    background-color: #616161;
+    border-radius: 10px;
+    border: 1px solid #575656;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .portuguese h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container .portuguese .text {
+    max-width: 530px;
+}
+
+.container .portuguese .cn {
+    color: #CF180A;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.container .portuguese .br {
+    color: #0AB30E;
+    font-weight: 600;
+    text-decoration: underline;
+}
