@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- FONTES -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  
+     <!-- LINKS -->
+     <link rel="stylesheet" href="CSS/reset.css">
+     <link rel="stylesheet" href="CSS/style.css">
+     <link rel="stylesheet" href="CSS/Style-page2.css">
+
+    <title>写字的历史</title>
+</head>
+<body>
+    <section class="section1">
+        <!-- RETANGULO SUPERIOR -->
+        <div class="retangulo">
+            <a href="index.html"><img class="flag" src="Img/brasil.png" alt="Bandeira Brasileira"></a>
+            <a href="index.html"><img class="flag" src="Img/china.png" alt="Bandeira Chinesa"></a>
+            <a href="index.html"><h1>欢迎来到<span class="cn">汉语</span>的<span class="br">网页</span></h1></a>
+        </div>
+
+        <!-- RETANGULO DO LADO ESQUERDO -->
+        <div class="retangulo1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                </svg>
+                <h2>历史:</h2>
+                <nav>
+                    <a href="Index2.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 中国的历史:</a><br>
+
+                    <a href="Index3.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 汉字的历史:</a><br>
+
+                    <a href="Index4.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 写字的历史:</a><br>
+
+                    <a href="Index5.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 阅读的历史:</a><br>
+
+                    <a href="Index6.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg>汉语，中文还是普通话?</a><br><br><br>
+
+                    <div class="languages">
+                        <div class="languages-library">
+                            <button id="library__button" class="library__button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+                                    <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+                                    <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+                                  </svg>
+
+                                <span id="language">语言 (Idioma)</span><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>简体中文</a><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>English</a><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>Português brasileiro</a>
+                                
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="containerone ">
+            <div class="retanguloone">
+
+                <!-- A História da Escrita Chinesa -->
+                <h1>写字的历史 (A História da Escrita Chinesa)</h1>
+                <img src="Img/img-page3/marco-zuppone-zHwWnUDMizo-unsplash-1-1536x1024.jpg" alt="Tinta e Ideograma">
+                <p>A caligrafia chinesa (书法), também conhecida como a arte da escrita, é uma parte muito importante da cultura da China. Geralmente, as pessoas a consideram  como a principal forma de arte visual no país. Principalmente porque a caligrafia chinesa envolve tanto o uso de canetas como o de tinta e pincel. Contrariamente da caligrafia ocidental, que utiliza principalmente canetas.</p>
+                <p>Desta forma, os chamados calígrafos se aperfeiçoam na pintura dos logogramas chineses e em outras formas de pintura, sendo considerados artistas de caligrafia na China. Por este motivo, as pessoas acreditam que a caligrafia e a pintura sejam duas artes que caminham juntas e são complementares.</p>
+
+                <!-- Os 4 tesouros da caligrafia chinesa -->
+                <h2>Os 4 tesouros da caligrafia chinesa</h2>
+                <p>Frequentemente, os calígrafos usam o papel, a tinta, a pedra de pintar e o pincel. Na maioria das vezes, chamados de “4 tesouros":</p>
+                <ul>
+                   <li><span>Papel</span>: O papel mais usado é feito de arroz <span>(Xuanzhi – 宣紙)</span>, tradicionalmente fabricado na província de Anhui. Os calígrafos também utilizam papel de bambu, amora e cânhamo.</li>
+                   <li><span>Pincéis</span>: Os pincéis mais comuns são feitos de pele de carneiro e de lobo, ou uma mistura dos dois.. O cabo do pincel pode ser de bambu ou materiais nobres, como o sândalo vermelho, cristal, marfim, prata e ouro.</li>
+                   <li><span>Tintas</span>: A tinta é basicamente composta por bastões feitos de fuligem e aglutinadores que os artistas esfregam com água em uma pedra de tintura até atingirem a consistência correta. Apesar de existirem tintas engarrafadas prontas para uso, a tradição acredita que os bastões sejam melhores, pois as tintas prontas podem borrar e escorrer. Para selar as obras ou documentos, os artistas usam uma tinta vermelha feita de óleo, incenso e uma mistura de 8 ervas.</li>
+                </ul>
+                <p>Na China, a caligrafia é considerada uma dança entre o artista e suas três ferramentas. Um bom calígrafo é capaz de controlar a proporção de cada caractere, o contraste entre o claro e escuro, e a velocidade de cada linha e traçado. Isso resulta em uma verdadeira obra de arte, harmoniosa e espontânea.</p>
+                <p>Além disso, a caligrafia também é uma forma de manter a saúde física e mental em equilíbrio. Não à toa, a longevidade dos artistas é um fenómeno conhecido. </p>
+
+                <!-- A caligrafia chinesa possui cinco estilos distintos. As formais são: -->
+                 <h2>A caligrafia chinesa possui cinco estilos distintos. As formais são:</h2>
+                 <ol>
+                    <li><span>Chuan Shu</span>: escrita de selo, considerada uma das mais antigas formas de escrita (seal).</li>
+                    <li><span>Li Shu</span>: escrita oficial e arcaica (clerical).</li>
+                    <li><span>Kai Shu</span>: escrita de forma (standard).</li>
+                 </ol>
+
+                 <h2>Já as escritas informais são:</h2>
+                 <ul>
+                    <li><span>Xing Shu</span>: escrita corrente (semi-cursive).</li>
+                    <li><span>Cao Shu</span>: escrita cursiva (cursive).</li>
+                 </ul>
+            </div>
+        </div>
+
+
+        <img class="pais" src="Img/pais.png" alt="">
+</body>
+</html>
