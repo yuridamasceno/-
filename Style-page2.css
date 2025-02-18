@@ -1,0 +1,53 @@
+/* CARDS */
+
+.containerone {
+
+}
+
+.containerone .retanguloone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 170px;
+    left: 225px;
+    position: absolute;
+    width:1500px;
+    background-color: transparent;
+    margin-top: 25px;
+    background-color: #252121;
+    border-radius: 10px;
+}
+
+.containerone .retanguloone h1 {
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+}
+
+.containerone .retanguloone h2 {
+    text-decoration: underline;
+    padding: 10px 0 20px 0;
+    text-align: center;
+}
+
+.containerone .retanguloone p {
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+.containerone .retanguloone img {
+    width: 520px;
+    height: 450px;
+    padding: 10px 0 10px 0;
+}
+
+.containerone .retanguloone span {
+    font-weight: 600;
+}
+
+.containerone .retanguloone table {
+    display: flex;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    align-items: center;
+}
