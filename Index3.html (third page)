@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+ 
+    <!-- LINKS -->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Style-page2.css">
+
+    <title>汉字的历史</title>
+</head>
+<body>
+    <section class="section1">
+        <!-- RETANGULO SUPERIOR -->
+        <div class="retangulo">
+            <a href="index.html"><img class="flag" src="Img/brasil.png" alt="Bandeira Brasileira"></a>
+            <a href="index.html"><img class="flag" src="Img/china.png" alt="Bandeira Chinesa"></a>
+            <a href="index.html"><h1>欢迎来到<span class="cn">汉语</span>的<span class="br">网页</span></h1></a>
+        </div>
+
+        <!-- RETANGULO DO LADO ESQUERDO -->
+        <div class="retangulo1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                </svg>
+                <h2>历史:</h2>
+                <nav>
+                    <a href="Index2.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 中国的历史:</a><br>
+
+                    <a href="Index3.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 汉字的历史:</a><br>
+
+                    <a href="Index4.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 写字的历史:</a><br>
+
+                    <a href="Index5.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg> 阅读的历史:</a><br>
+
+                    <a href="Index6.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg>汉语，中文还是普通话?</a><br><br><br>
+
+                    <div class="languages">
+                        <div class="languages-library">
+                            <button id="library__button" class="library__button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+                                    <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+                                    <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+                                  </svg>
+
+                                <span id="language">语言 (Idioma)</span><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>简体中文</a><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>English</a><br>
+
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8"/>
+                                </svg>Português brasileiro</a>
+                                
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    
+        <div class="containerone ">
+            <div class="retanguloone">
+
+                <!-- História dos Ideogramas-->
+                <h1>汉字的历史 (A história sobre os ideogramas)</h1>
+                <img src="Img/img-page3/capa-chinesa.jpg" alt="Capa de ideogramas ">
+                <p>O chinês é o idioma mais falado do mundo. No entanto,  os povos ocidentais consideram a caligrafia chinesa uma das mais curiosas e intrigantes. E não é pra menos. O sistema de escrita, os sons e a caligrafia chinesa são completamente diferentes do português e de todas as outras línguas com as quais temos mais contato cotidiano, como o inglês e o espanhol.</p>
+                <p>Para matar um pouco da sua curiosidade sobre a origem do chinês e sobre a lógica que guiou a construção da escrita, resolvemos escrever este artigo.</p>
+                <p>Esperamos que você se divirta neste túnel do tempo!</p>
+
+                <!-- Onde surgiu a escrita chinesa? -->
+                <h2>Onde surgiu a escrita chinesa?</h2>
+                <p>Primeiramente, pesquisadores encontraram os primeiros registros da escrita chinesa em cavernas, cascos de tartarugas e ossos de animais datados de 4 ou 5 mil anos atrás. A primeira vista, esses símbolos primários se pareciam com hieróglifos simples que variavam em mais ou menos 50 tipos de gravuras que seguiam padrões. Durante a dinastia Shang, a partir do século XVI a.C, os chineses sistematizaram a escrita, mostrando um bom avanço nos registros arqueológicos.</p>
+                <p>Recentemente, cientistas chineses e americanos descobriram indícios da escrita chinesa em cascos de tartaruga datados de 8.600 anos atrás. Se esses achados forem aceitos como registros oficiais, a escrita chinesa passará a ser considerada a mais antiga da humanidade.</p>
+                <p>No total, a escrita chinesa tem mais de 160 mil logogramas. Mas, se você está estudando mandarim, não se assuste! Pois a maioria deles passou por uma série de alterações que priorizaram os traços fundamentais. Atualmente, os chineses utilizam entre 5 e 8 mil caracteres,  sendo apenas 3 mil para a vida diária.</p>
+
+                <!-- Como funciona o sistema de escrita chinês -->
+                <h2>Como funciona o sistema de escrita chinês</h2>
+                <p>Efetivamente, os povos ocidentais estranham muito a escrita chinesa por um motivo simples. Nas línguas ocidentais, as letras formam palavras, que representam ideias. Uma letra sozinha é apenas uma vogal ou uma consoante, sem significado algum.</p>
+                <p>Já a escrita chinesa é logográfica, ou seja,  formada por símbolos que expressam palavras ou morfemas – uma unidade mínima da palavra com significado.</p>
+                <p>Por isso, cada logograma, também chamado caractere ou sinograma, possui seu próprio significado e pode transmitir uma mensagem sem precisar combinar-se com outro.</p>
+                <p>Nenhuma variante da escrita chinesa possui um alfabeto. Os logogramas não transcrevem os sons como as vogais e consoantes das línguas ocidentais fazem. Por esse motivo, o sistema de escrita chinês deu origem a dialetos completamente diferentes uns dos outros.</p>
+                <p>Os caracteres chineses que são considerados ideogramas correspondem a uma pequena porcentagem. Por exemplo, o ideograma 明, que combina 日 (sol) e 月 (lua), e pode significar “brilho” ou “amanhã”.</p>
+
+                <!-- Os principais dialetos chineses são -->
+                <h2>Os principais dialetos chineses são:</h2>
+                <ul>
+                <li><span>Mandarim</span>: idioma oficial da região de <span>Beijing 北京</span>, está presente na China continental, <span>Taiwan 台湾</span> e também em <span>Singapura</span>;</li>
+                <li><span>Cantonês</span>: falado em <span>Cantão (Província de Cantão)</span>, <span>Hong Kong 香港</span>, <span>Macau</span> e sudeste do país;</li>
+                <li><span>Xangainês</span>: falado em <span>Xangai 上海</span> e arredores;</li>
+                <li><span>Sichuanês</span>: falado no centro da China (região de <span>Sichuan 四川</span> e spanChongqing 重庆);</li>
+                <li><span>Hakka(Hacá) 客家</span>: falado na província de Cantão, <span>Fujian, Hainan, Jiangxi, Hong Kong, Taiwan</span> e sudeste do país.</li>
+                </ul>
+            </div>
+        </div>
+            
+
+        <img class="pais" src="Img/pais.png" alt="">
+</body>
+</html>
